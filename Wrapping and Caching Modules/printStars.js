@@ -1,5 +1,12 @@
 const printStars = (amount, header) => {
-  var stars = "*".repeat(stars)
+  var stars = ""
+
+  for (var index = 0; index < amount; index++) {
+    stars += "*"
+    
+  }
+  // var stars = "*".repeat(stars)
+
   console.log(stars);
   console.log(header);
   console.log(stars)

@@ -1,3 +1,3 @@
 var stars = require("./printStars");
 
-stars(5, "STARRS");
+stars(15, "STARRS");
